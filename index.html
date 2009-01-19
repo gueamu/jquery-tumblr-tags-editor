@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <title>jquery tubmler tags</title>
+
+  <link rel="stylesheet" href="tumblertags.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+  <script src="../jquery/jquery-1.2.6.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="tumblertags.js" type="text/javascript" charset="utf-8"></script>
+
+
+  <script type="text/javascript" charset="utf-8">
+
+    $(document).ready(function () {
+      $('.tag-editor').tumblertags();
+    });
+        
+  </script>
+  
+</head>
+
+<body>
+
+
+  <!-- Tags -->
+  <div class="tag-editor">
+      <label>Tags</label>
+      <div class="tags-container">
+        <input id="post_tags" name="tags" type="text" />
+        <div class="visualClear"><!-- clear floats --></div>
+      </div>
+  </div>
+
+
+
+</body>
+</html>
